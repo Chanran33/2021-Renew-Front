@@ -14,10 +14,13 @@ body{
     background-attachment: fixed;
 }
 
-.logo{
+.logo_link .logo{
     width: 160px;
     height: auto;
     cursor: pointer;
+}
+
+.logo_link{
     margin-right: auto;
 }
 

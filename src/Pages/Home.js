@@ -1,27 +1,43 @@
-import React from 'react';
-import { Link} from 'react-router-dom';
-import '../Styles/Home.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import NavBar from "../../src/Components/Nav/NavBar";
+import "../Styles/Home.css";
 
 const Home = () => {
-    return (
-        <div class="Home_body">
-            <div class="social">
-                <img src="image/facebook_logo.png" alt="facebook_logo" /><br />
-                <img src="image/twitter_logo.png" alt="twitter_logo" /><br />
-                <img src="image/instagram_logo.png" alt="instagram_logo" />
-            </div>
+  return (
+    <div>
+      <NavBar />
 
-            <div class="welcome">
-                <h1>Go green by<br/> Upcycling</h1>
-                <p>share Upcycling events with your neighbors and save the earth!</p>
-                <div class="welcome_buttons">
-                    <Link to="/"><button>Contents</button></Link>
-                    <Link to="/createevent"><button>Create event</button></Link>
-                    <Link to="/"><img src="image/MapTrifold.png" alt="map"/></Link>
-                </div>
-            </div>
+      <div class="Home_body">
+        <div class="social">
+          <img src="image/facebook_logo.png" alt="facebook_logo" />
+          <br />
+          <img src="image/twitter_logo.png" alt="twitter_logo" />
+          <br />
+          <img src="image/instagram_logo.png" alt="instagram_logo" />
         </div>
-    );
+
+        <div class="welcome">
+          <h1>
+            Go green by
+            <br /> Upcycling
+          </h1>
+          <p>share Upcycling events with your neighbors and save the earth!</p>
+          <div class="welcome_buttons">
+            <Link to="/">
+              <button>Contents</button>
+            </Link>
+            <Link to="/createevent">
+              <button>Create event</button>
+            </Link>
+            <Link to="/mapview">
+              <img src="image/MapTrifold.png" alt="map" />
+            </Link>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Home;

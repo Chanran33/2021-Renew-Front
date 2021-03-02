@@ -1,0 +1,13 @@
+.Home_body:after{
+    clear: both;
+    display: block;
+    content: '';
+}
+
+.Home_body .social{
+    float:left;
+}
+
+.Home_body .welcome{
+    float: left;
+}

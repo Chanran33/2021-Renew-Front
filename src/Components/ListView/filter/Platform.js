@@ -30,7 +30,7 @@ export default function Platform() {
   };
 
   return (
-    <div>
+    <div style={{float:"left", textAlign:"left"}}>
     <h1>Platform</h1>
         <div className={classes.root}>
         <Chip
@@ -38,24 +38,18 @@ export default function Platform() {
             label="Youtube"
             clickable
             color="primary"
-            onDelete={handleDelete}
-            deleteIcon={<DoneIcon />}
         />
          <Chip
             icon={<InstagramIcon />}
             label="Instagram"
             clickable
             color="primary"
-            onDelete={handleDelete}
-            deleteIcon={<DoneIcon />}
         />
          <Chip
             icon={<BookIcon />}
             label="Blog"
             clickable
             color="primary"
-            onDelete={handleDelete}
-            deleteIcon={<DoneIcon />}
         />
         </div>
     </div>

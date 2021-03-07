@@ -25,9 +25,8 @@ const FilterSliderStyle = styled.div`
   text-align: center;
   z-index: 1;
   top: 0;
-  left: 0;
-  padding-top: 25px;
+  left: 80px;
+  margin: 10px;
   background-color: #ffffff;
   position: fixed;
-  left: 80px;
 `;

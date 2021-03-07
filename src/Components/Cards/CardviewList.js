@@ -3,8 +3,8 @@ import CardviewItem from "./CardviewItem";
 import styled from "styled-components";
 
 const sampleData = {
-  title: "Store Name",
-  description: "This is Amazing Store!",
+  title: "The Store Name",
+  description: "This is Amazing Store! This is WoW Store! This is Funny Store!",
   url: "https://google.com",
   urlToImage: "httpsL.via.placeholder.com/160",
 };

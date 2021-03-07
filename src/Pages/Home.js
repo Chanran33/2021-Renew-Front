@@ -24,7 +24,7 @@ const Home = () => {
           </h1>
           <p>share Upcycling events with your neighbors and save the earth!</p>
           <div class="welcome_buttons">
-            <Link to="/">
+            <Link to="/listview">
               <button>Contents</button>
             </Link>
             <Link to="/createevent">

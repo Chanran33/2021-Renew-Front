@@ -7,6 +7,7 @@ import CreateEvent from "./Pages/CreateEvent";
 import MapView from "./Pages/MapView";
 import MyPage from "./Pages/MyPage";
 import ListView from "./Pages/ListView";
+import Test from "./Pages/Test";
 
 import "./Styles/App.css";
 
@@ -21,6 +22,8 @@ const App = () => {
         <Route path="/mapview" component={MapView} />
         <Route path="/mypage" component={MyPage} />
         <Route path="/listview" component={ListView} />
+
+        <Route path="/test" component={Test} />
       </div>
     </div>
   );

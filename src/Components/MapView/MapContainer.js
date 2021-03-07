@@ -6,6 +6,7 @@ import {
   InfoWindow,
 } from "@react-google-maps/api";
 import { formatRelative } from "date-fns";
+import styled from "styled-components";
 
 const labraries = ["places"];
 const mapContainerStyle = {
@@ -50,7 +51,7 @@ export default function MapContainer() {
   if (!isLoaded) return "Loading maps";
 
   return (
-    <div>
+    <Container>
       <GoogleMap
         mapContainerStyle={mapContainerStyle}
         zoom={13}
@@ -89,6 +90,11 @@ export default function MapContainer() {
           </InfoWindow>
         ) : null}
       </GoogleMap>
-    </div>
+    </Container>
   );
 }
+
+const Container = styled.div`
+  display: inline-block;
+  margin-left: 480px;
+`;

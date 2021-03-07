@@ -1,13 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import SearchBar from "../Nav/SearchBar";
-import CardviewItem from "../Cards/CardviewItem";
+import CardviewList from "../Cards/CardviewList";
 
 const InfoSlider = () => {
   return (
     <Container>
       <SearchBar />
-      <CardviewItem />
+      <CardviewList />
     </Container>
   );
 };

@@ -20,10 +20,9 @@ const Home = () => {
 // Style
 const HomeStyle = styled.div`
   background-image: url(image/background_img.png);
-  background-size: 1920px 960px;
+  background-size: 1780px 960px;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
 `;
 
 export default Home;

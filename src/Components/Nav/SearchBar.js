@@ -26,19 +26,23 @@ export default SearchBar;
 
 const Container = styled.div`
   display: block;
-  background: #a3b18a;
-  width: 400px;
+  background: #fff;
+  width: 360px;
+  border: 0.2rem solid lightgrey;
+  border-radius: 6px;
+  margin: 0 auto;
+
   /* height: 70px; */
 
   input {
-    width: 280px;
+    width: 260px;
     background: none;
     outline: none;
     border: none;
     padding: 0.5rem;
     font-size: 1.25rem;
     line-height: 1.5;
-    color: white;
+    color: black;
     vertical-align: middle;
 
     &::placeholder {

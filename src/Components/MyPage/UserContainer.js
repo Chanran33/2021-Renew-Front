@@ -1,4 +1,5 @@
 import React from "react";
+import FavoriteIcon from "@material-ui/icons/Favorite";
 import styled from "styled-components";
 
 const UserContainer = () => {
@@ -20,15 +21,16 @@ const UserContainer = () => {
         </div>
 
         <div class="box">
+          <FavoriteIcon />
           <span class="box-text">YOUR FAVORITE</span>
           <div id="favorite">
-            <span class="category">FLEA MARKET</span>
+            {/* <span class="category">FLEA MARKET</span>
             <br />
             <span class="category">SHARE</span>
             <br />
             <span class="category">CLASS</span>
             <br />
-            <span class="category">STORE</span>
+            <span class="category">STORE</span> */}
           </div>
         </div>
       </div>
@@ -41,15 +43,17 @@ export default UserContainer;
 // Style
 const Container = styled.div`
   background-color: #f2f2f2;
-  display: flex;
-  width: 100%;
-  height: 100%;
+  display: block;
+  margin: 0 auto;
   margin-left: 80px;
+  top: 0;
+  left: 0;
 
   .box {
     /* text-align: right; */
     color: #344e41;
     align-items: center;
+    margin: 20px;
 
     .box-text {
       font-size: 25px;

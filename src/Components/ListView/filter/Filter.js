@@ -13,7 +13,7 @@ export default function Filter() {
   };
 
   return (
-    <div>
+    <div style={{float:"left", textAlign:"initial"}}>
         <h1>Filter</h1>
         <FormControl component="fieldset">
         <RadioGroup aria-label="Filter" name="time1" value={value} onChange={handleChange}>

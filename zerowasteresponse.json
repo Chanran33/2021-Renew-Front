@@ -1,0 +1,692 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "Tm-Co2cu1VHxTQy4sqzGWklhkyE",
+  "nextPageToken": "CBQQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 956616,
+    "resultsPerPage": 20
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1P03b0lK5JlV0lxZHPMcqzGJeiA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8E9fmr85yQ8"
+      },
+      "snippet": {
+        "publishedAt": "2020-08-04T10:00:02Z",
+        "channelId": "UCFQ_CWYmt-ScWaPX4YfnBrQ",
+        "title": "40 REUSABLE ALTERNATIVES TO DISPOSABLES // zero waste swaps to use again and again",
+        "description": "Find out more about the 40 reusables here: 20 Zero Waste Beauty Hacks (minimaki stick, nail stone etc) ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8E9fmr85yQ8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8E9fmr85yQ8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8E9fmr85yQ8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Gittemary Johansen",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-08-04T10:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0Ovw3l_YkflttJAxseL-muGTOeM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JLS6nGrsZqo"
+      },
+      "snippet": {
+        "publishedAt": "2019-09-27T13:17:47Z",
+        "channelId": "UCNXvxXpDJXp-mZu3pFMzYHQ",
+        "title": "Why we should rethink Zero Waste.",
+        "description": "In this Our Changing Climate environmental video essay, I look at the difficulties surrounding the Zero Waste lifestyle, especially for beginners. Specifically, I look ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JLS6nGrsZqo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JLS6nGrsZqo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JLS6nGrsZqo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Our Changing Climate",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-09-27T13:17:47Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "sWEyPSYIyAGRgYI4qznkvIyvhHg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "npPR95sVh8Y"
+      },
+      "snippet": {
+        "publishedAt": "2019-09-12T16:00:09Z",
+        "channelId": "UCZqVfLvSXSGnVT_awp9WBMw",
+        "title": "Zero waste for beginners",
+        "description": "* Please note that my videos and blog contain affiliate links which allow me to market products that I currently use or recommend. At no additional cost to you, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/npPR95sVh8Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/npPR95sVh8Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/npPR95sVh8Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "simply by christine",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-09-12T16:00:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "g6wSrE1z6HP1N5ymi5OFdz-t-S0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xd30z19ZijI"
+      },
+      "snippet": {
+        "publishedAt": "2020-07-31T15:30:02Z",
+        "channelId": "UCZqVfLvSXSGnVT_awp9WBMw",
+        "title": "Starting a zero waste store",
+        "description": "* Please note that my videos and blog contain affiliate links which allow me to market products that I currently use or recommend. At no additional cost to you, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xd30z19ZijI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xd30z19ZijI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xd30z19ZijI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "simply by christine",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-07-31T15:30:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "C-g2a42E_zTNYKhPSDATsnZsdj4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OagTXWfaXEo"
+      },
+      "snippet": {
+        "publishedAt": "2017-10-18T13:00:03Z",
+        "channelId": "UC-ga3onzHSJFAGsIebtVeBg",
+        "title": "10 Ways to Reduce Waste | Zero Waste for Beginners",
+        "description": "The 5 R's of Waste Management • REFUSE what you don't need • REDUCE what you do need • REUSE what you already have • RECYCLE what you cannot ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OagTXWfaXEo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OagTXWfaXEo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OagTXWfaXEo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Lavendaire",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-10-18T13:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8C7_MlKN0E_G7M-i5Njls5xiMGI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xkG4jSbfReQ"
+      },
+      "snippet": {
+        "publishedAt": "2020-03-17T17:34:41Z",
+        "channelId": "UCkq2gEWE-i647M71bh7zDxA",
+        "title": "100 ZERO WASTE SWAPS YOU HAVE TO TRY",
+        "description": "These swaps could make a huge difference to the amount of waste you produce. Take what is relevant and applicable for you and your lifestyle. Let me know in ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xkG4jSbfReQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xkG4jSbfReQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xkG4jSbfReQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Sustainably Vegan",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-03-17T17:34:41Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "37iRm1HqJ1cgGnt8mvi630A8qUg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "W8Ux3doMzMs"
+      },
+      "snippet": {
+        "publishedAt": "2020-09-30T23:00:08Z",
+        "channelId": "UCM6cN45p-QTDRwVPVPRpfYQ",
+        "title": "going zero waste kinda ruined my life (an update)",
+        "description": "Head to squarespace.com/SEDONA to save 10% off your first purchase of a website or domain using code SEDONA *Subscribe for more!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/W8Ux3doMzMs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/W8Ux3doMzMs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/W8Ux3doMzMs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Sedona Christina",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-09-30T23:00:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "keGHrNMqR3D5cFPaam_QuG1XygM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "HZsJxMDR8uw"
+      },
+      "snippet": {
+        "publishedAt": "2020-11-13T15:46:46Z",
+        "channelId": "UCiyAxuDj-Y47PJzpHqfO_cg",
+        "title": "SUB) 제로웨이스트 초보의 분리배출 Zero waste beginner in Korea",
+        "description": "zerowaste #koreanaestheticvlog Even though I am not perfect for zero waste, I try to do my best. One of the things I can do is throw away trash in the right way.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HZsJxMDR8uw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HZsJxMDR8uw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HZsJxMDR8uw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "어느덧오늘Onul",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-11-13T15:46:46Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Afr8HYJGnYKM8VxeVE7z4RQQ8J8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ZyAlwaA3lv0"
+      },
+      "snippet": {
+        "publishedAt": "2019-08-16T00:00:02Z",
+        "channelId": "UC56_hOqEtBqHwnVNBzOWj-A",
+        "title": "ZERO WASTE FOR BEGINNERS || 28 ECO HACKS",
+        "description": "Timestamps: 0:01 - eco-friendly alternatives to plastics 2:43 - DIY toothpaste 5:32 - candle holder 7:43 - pencil holders 12:42 - sunglasses case ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZyAlwaA3lv0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZyAlwaA3lv0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZyAlwaA3lv0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "5-Minute Crafts VS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-08-16T00:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "d6_mgVG1WNh3T-opocWS0UULcgg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "w7F1YxPYjSM"
+      },
+      "snippet": {
+        "publishedAt": "2021-01-17T14:00:31Z",
+        "channelId": "UCv2LNRhF34_v1VNC08ZuooA",
+        "title": "my ✨FAVORITE✨  zero waste &amp; sustainable swaps for 2021 (that are not water bottles &amp; straws)",
+        "description": "\"You cannot do all the good that the world needs, but the world needs all the good that you can do.\" © -------- Get More by Signing Up for my SECRET Video List ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/w7F1YxPYjSM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/w7F1YxPYjSM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/w7F1YxPYjSM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Shelbizleee",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-01-17T14:00:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "FX5Y5-UTJI7PfUXQItVSfb6zzv8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "M7ikhWfHQc8"
+      },
+      "snippet": {
+        "publishedAt": "2020-07-25T15:00:06Z",
+        "channelId": "UCEMArgthHuEtX-04qL_8puQ",
+        "title": "This Zero-Waste Grocery Store Should Be Everywhere",
+        "description": "This grocery store is completely plastic-free and package-free to help you shop zero waste! Check out tare at @taregrocery on Instagram or at their website ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/M7ikhWfHQc8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/M7ikhWfHQc8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/M7ikhWfHQc8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Goodful",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-07-25T15:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "XwjfAs70-Uflayz68CwLKYgcn4o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "DFpiqGBXNSE"
+      },
+      "snippet": {
+        "publishedAt": "2020-06-14T11:00:04Z",
+        "channelId": "UCOOoeFFt641fiLUghzE9CHg",
+        "title": "A Zero Waste Morning Routine",
+        "description": "--------------------Some DIY videos-------------------- *Door Draft Stopper: https://youtu.be/1kauhWv5fEg *Clay Decorations: https://youtu.be/YIeWXGYTBkI ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DFpiqGBXNSE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DFpiqGBXNSE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DFpiqGBXNSE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Fairyland Cottage",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-06-14T11:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "FXdoxGr16VZ1dQOBAb5yP3HyB_Y",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Rw4HQSS-lB0"
+      },
+      "snippet": {
+        "publishedAt": "2018-10-26T17:30:00Z",
+        "channelId": "UCfQDD-pbllOCXHYwiXxjJxA",
+        "title": "A Day in My Life with Zero Waste",
+        "description": "How hard can it be to sustain a zero-waste lifestyle? Host Simone Sullivan visited Stevie Van Horn, a woman who manages to keep down years of her landfill ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Rw4HQSS-lB0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Rw4HQSS-lB0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Rw4HQSS-lB0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "VICE Life",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-10-26T17:30:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qErL0W1ELqNFWXHvyOcds5ci8H0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "qqskZVg65K8"
+      },
+      "snippet": {
+        "publishedAt": "2020-02-19T14:00:18Z",
+        "channelId": "UCv2LNRhF34_v1VNC08ZuooA",
+        "title": "zero waste swaps for EVERYONE // Swaps for Beginners &amp; Advanced",
+        "description": "You cannot do all the good that the world needs, but the world needs all the good that you can do.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qqskZVg65K8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qqskZVg65K8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qqskZVg65K8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Shelbizleee",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-02-19T14:00:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "jDWARSDnSikYAE-bEDRI5G_ADgs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "--f8hjw9Uiw"
+      },
+      "snippet": {
+        "publishedAt": "2019-11-20T20:00:00Z",
+        "channelId": "UCzsF1ghKHeif7AmTNlRYAzQ",
+        "title": "Everything Zero Waste Expert Lauren Singer Eats in a Day | Food Diaries | Harper&#39;s BAZAAR",
+        "description": "Activist and Founder of Package Free Shop, Lauren Singer has been living a zero waste lifestyle for eight years and is “on a mission to make the world less ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/--f8hjw9Uiw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/--f8hjw9Uiw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/--f8hjw9Uiw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Harper's BAZAAR",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-11-20T20:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2fZpp2zRPfEVJllytBfjiOFt3Tg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Z-A6RwQCl6o"
+      },
+      "snippet": {
+        "publishedAt": "2021-02-20T16:37:44Z",
+        "channelId": "UCLSh2s2hsYnyhgn_al4B2bw",
+        "title": "Watch This Before Going Zero Waste!",
+        "description": "Being perfectly \"zero waste\" isn't the most important thing we can do to help save the planet. Here's a few other things you can try though! Check Out Bill's ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Z-A6RwQCl6o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Z-A6RwQCl6o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Z-A6RwQCl6o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Levi Hildebrand",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-02-20T16:37:44Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xHWnVpo6IqhG2X-fEh4BG8GD-2M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ojON67Ww-RU"
+      },
+      "snippet": {
+        "publishedAt": "2020-05-07T10:00:30Z",
+        "channelId": "UCFQ_CWYmt-ScWaPX4YfnBrQ",
+        "title": "50 OF MY DAILY ZERO WASTE HABITS IN 24 HOURS",
+        "description": "SUPPORT MY WORK AND FIND MY EBOOK AT https://www.patreon.com/Gittemary ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ojON67Ww-RU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ojON67Ww-RU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ojON67Ww-RU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Gittemary Johansen",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-05-07T10:00:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GZ9ZvqCfnjfPE1qUeU0UCWC93lQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "SZH9HQR3uRw"
+      },
+      "snippet": {
+        "publishedAt": "2019-05-15T20:49:51Z",
+        "channelId": "UCtFNxIYKroHC97NUEjMHbeA",
+        "title": "(sub) 포장 없는 물건 구입이 가능한 제로 웨이스트 장터 | Zero Waste Shopping",
+        "description": "각종 친환경 제품, 식재료, 치약, 비누, 세제 등 다양한 품목을 미리 준비한 용기에 담아 구입할 수 있는 제로 웨이스트 장터 '채우장'. 좋은 식재료와 음식, 그리고 친환경 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SZH9HQR3uRw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SZH9HQR3uRw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SZH9HQR3uRw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "단순한일상",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-05-15T20:49:51Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "og5SfBLK5TatKa9gb1ig9o7DDTk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cd48LW3qeNE"
+      },
+      "snippet": {
+        "publishedAt": "2019-09-08T04:30:02Z",
+        "channelId": "UC8ZyfGD_qP-v75DGCzYQw6g",
+        "title": "What It’s Like to Live with Zero Waste",
+        "description": "How hard can it be to sustain a zero waste lifestyle? Host Simone Sullivan visited Stevie Van Horn, a woman who manages to keep down years of her landfill ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cd48LW3qeNE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cd48LW3qeNE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cd48LW3qeNE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "VICE Asia",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-09-08T04:30:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "R5c-WTk_bPF77PG4EQjD1aDsSIY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "pF72px2R3Hg"
+      },
+      "snippet": {
+        "publishedAt": "2015-05-27T14:32:45Z",
+        "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+        "title": "Why I live a zero waste life | Lauren Singer | TEDxTeen",
+        "description": "Lauren is an Environmental Studies graduate from NYU and former Sustainability Manager at the NYC Department of Environmental Protection, and the amount ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pF72px2R3Hg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pF72px2R3Hg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pF72px2R3Hg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "TEDx Talks",
+        "liveBroadcastContent": "none",
+        "publishTime": "2015-05-27T14:32:45Z"
+      }
+    }
+  ]
+}

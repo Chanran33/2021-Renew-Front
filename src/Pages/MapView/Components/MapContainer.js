@@ -92,3 +92,5 @@ export default function MapContainer() {
     </div>
   );
 }
+
+export default MapContainer;

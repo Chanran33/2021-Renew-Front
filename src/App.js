@@ -4,7 +4,9 @@ import Home from "./Pages/Home";
 import SignIn from "./Pages/SignIn";
 import About from "./Pages/About";
 import CreateEvent from "./Pages/CreateEvent";
-import MapView from "./Pages/MapView/MapView";
+import MapView from "./Pages/MapView";
+import MyPage from "./Pages/MyPage";
+import ListView from "./Pages/ListView";
 
 import "./Styles/App.css";
 
@@ -17,7 +19,12 @@ const App = () => {
         <Route path="/signin" component={SignIn} />
         <Route path="/createEvent" component={CreateEvent} />
         <Route path="/mapview" component={MapView} />
+<<<<<<< HEAD
         <Route path="/detailview" component={DetailView} />
+=======
+        <Route path="/mypage" component={MyPage} />
+        <Route path="/listview" component={ListView} />
+>>>>>>> 25ee3f7008e38516ba12d150a98fe3ade20acfda
       </div>
     </div>
   );

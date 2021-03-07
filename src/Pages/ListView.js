@@ -1,19 +1,15 @@
-import React from "react";
-import SideBar from "../Components/Nav/SideBar";
-import NavBar from "../Components/Nav/NavBar";
+import React, { Fragment, useState } from "react";
 import styled from "styled-components";
+import FilterSlider from "../Components/ListView/FilterSlider";
+import SideBar from "../Components/Nav/SideBar";
 
-const ListView = () => {
+const DetailView = () => {
   return (
-    <ContainerStyle>
-      <SideBar />
-      여기는 ListView Page~!
-    </ContainerStyle>
+    <Fragment>
+      <SideBar></SideBar>
+      <FilterSlider></FilterSlider>
+    </Fragment>
   );
 };
 
-export default ListView;
-
-const ContainerStyle = styled.div`
-  display: inline;
-`;
+export default DetailView;

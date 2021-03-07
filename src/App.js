@@ -17,6 +17,7 @@ const App = () => {
         <Route path="/signin" component={SignIn} />
         <Route path="/createEvent" component={CreateEvent} />
         <Route path="/mapview" component={MapView} />
+        <Route path="/detailview" component={DetailView} />
       </div>
     </div>
   );

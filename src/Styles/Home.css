@@ -6,6 +6,7 @@
 
 .Home_body{
     padding: 30px 5%;
+    height: 960px;
 }
 
 .Home_body .social{
@@ -55,9 +56,10 @@
     color: #DAD7CD;
 }
 
-.header button:hover{
-    background-color: #344E41;
+.welcome_buttons button:hover{
+    background-color: #DAD7CD;
     color: #3A5A40;
+    font-weight: bold;
 }
 
 .welcome_buttons img{

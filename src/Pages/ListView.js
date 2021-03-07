@@ -5,14 +5,12 @@ import FilterSlider from '../Components/ListView/FilterSlider';
 import SideBar from '../Components/Nav/SideBar';
 
 const DetailView = () => {
-
-    return (
-      <Fragment>
-        <SideBar></SideBar>
-        <FilterSlider></FilterSlider>
-        <Content></Content>
-      </Fragment>
-      );
-}
+  return (
+    <Fragment>
+      <SideBar></SideBar>
+      <FilterSlider></FilterSlider>
+    </Fragment>
+  );
+};
 
 export default DetailView;

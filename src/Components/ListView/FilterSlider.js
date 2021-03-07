@@ -1,10 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import Filter from "./filter/Filter";
+import Tag from "./filter/Tag";
+import Platform from "./filter/Platform";
 
 function FilterSlider() {
   return (
     <FilterSliderStyle>
+        <Filter></Filter>
+        <Tag></Tag>
+        <Platform></Platform>
     </FilterSliderStyle>
   );
 }
@@ -15,13 +21,13 @@ export default FilterSlider;
 const FilterSliderStyle = styled.div`
   display: inline-block;
   height: 100%;
-  width: 400px;
+  width: 350px;
   text-align: center;
   z-index: 1;
   top: 0;
   left: 0;
   padding-top: 25px;
-  background-color: #aad7cf;
+  background-color: #ffffff;
   position: fixed;
   left: 80px;
 `;

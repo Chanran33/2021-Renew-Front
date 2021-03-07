@@ -35,7 +35,6 @@ export default NavBar;
 
 // Style
 const NavBarStyle = styled.div`
-  
   .logo_link .logo {
     width: 160px;
     height: auto;

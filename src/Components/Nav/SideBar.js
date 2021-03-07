@@ -30,7 +30,7 @@ export default SideBar;
 
 // Style
 const SideBarStyle = styled.div`
-  /* display: inline-block; */
+  display: inline-block;
   height: 100%;
   width: 80px;
   text-align: center;

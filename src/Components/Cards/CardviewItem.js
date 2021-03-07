@@ -11,12 +11,6 @@ const CardviewItem = ({ place }) => {
   const [selected, setselected] = useState(false);
   const { title, description, url, urlToImage } = place;
 
-  // Virtual data
-  const sample = {
-    storeName: "The Store Name01",
-    description: "Here is a description about the store ... ",
-  };
-
   return (
     <CardviewItemContainer>
       <div className="thumbnail">
@@ -93,7 +87,7 @@ const CardviewItemContainer = styled.div`
         border: none;
         color: red;
         cursor: pointer;
-        vertical-align: middle;
+        vertical-align: middle; //
       }
       .heading {
         /* font-family: DM Serif Display;
@@ -142,6 +136,7 @@ const CardviewItemContainer = styled.div`
       overflow: hidden;
       /* align: justify; */
       float: left;
+      text-align: left;
     }
   }
 `;

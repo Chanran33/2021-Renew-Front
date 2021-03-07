@@ -1,12 +1,16 @@
-import React from "react";
-import SideBar from "../Components/Nav/SideBar";
+import React, { Fragment, useState } from 'react';
+import styled from 'styled-components';
+import FilterSlider from '../Components/ListView/FilterSlider';
+import SideBar from '../Components/Nav/SideBar';
 
-const ListView = () => {
-  return (
-    <div>
-      <SideBar />
-    </div>
-  );
-};
+const DetailView = () => {
 
-export default ListView;
+    return (
+      <Fragment>
+        <SideBar></SideBar>
+        <FilterSlider></FilterSlider>
+      </Fragment>
+      );
+}
+
+export default DetailView;

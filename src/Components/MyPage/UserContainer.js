@@ -44,6 +44,7 @@ const Container = styled.div`
   display: flex;
   width: 100%;
   height: 100%;
+  margin-left: 80px;
 
   .box {
     /* text-align: right; */

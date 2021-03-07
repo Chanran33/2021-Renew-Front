@@ -7,15 +7,15 @@ import ToggleButton from "@material-ui/lab/ToggleButton";
 
 import styled from "styled-components";
 
-const CardviewItem = () => {
+const CardviewItem = ({ place }) => {
   const [selected, setselected] = useState(false);
+  const { title, description, url, urlToImage } = place;
 
   // Virtual data
-  // const sample = {
-  //   storeName: "The Store Name01",
-  //   description:
-  //     "Here is a description about the store... (Flea Market, Share, Class, Store and more...) abcdefghijklmnopqrstuv",
-  // };
+  const sample = {
+    storeName: "The Store Name01",
+    description: "Here is a description about the store ... ",
+  };
 
   return (
     <CardviewItemContainer>
@@ -40,7 +40,9 @@ const CardviewItem = () => {
             {selected === true ? <FavoriteIcon /> : <FavoriteBorderIcon />}
           </ToggleButton>
           <span className="heading">
-            <strong>The Store Name</strong>
+            <a href={url} target="_blank" rel="noopener noreferrer">
+              <strong>{title}</strong>
+            </a>
           </span>
           {/* <div className="starrating">
             <AiFillStar className="star" />
@@ -48,7 +50,7 @@ const CardviewItem = () => {
           </div> */}
         </div>
 
-        <p className="description">description</p>
+        <p className="description">{description}</p>
       </div>
     </CardviewItemContainer>
   );
@@ -62,6 +64,8 @@ const CardviewItemContainer = styled.div`
   background-color: #dad7cd;
   color: black;
   border-radius: 4px;
+  margin: 0 auto;
+  margin-bottom: 10px;
 
   .thumbnail {
     width: 375px;
@@ -100,6 +104,9 @@ const CardviewItemContainer = styled.div`
         letter-spacing: 0.01em;
         color: #081f32;
         vertical-align: middle;
+        a {
+          text-decoration: none;
+        }
       }
       /* .starrating {
         height: 25px;

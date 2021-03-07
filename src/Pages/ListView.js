@@ -9,6 +9,7 @@ const DetailView = () => {
     <Fragment>
       <SideBar></SideBar>
       <FilterSlider></FilterSlider>
+      <Content></Content>
     </Fragment>
   );
 };

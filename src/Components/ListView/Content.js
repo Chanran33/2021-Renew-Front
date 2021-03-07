@@ -8,7 +8,7 @@ function Content() {
   return (
     <ContentStyle>
       <ContentSwiper></ContentSwiper>
-      {/* <InstaCard img="https://think.kera.org/wp-content/uploads/2020/05/shutterstock_750703924-800x500.jpg" title="hi" author="jiyeon"></InstaCard> */}
+      <InstaCard img="https://think.kera.org/wp-content/uploads/2020/05/shutterstock_750703924-800x500.jpg" title="hi" author="jiyeon"></InstaCard>
     </ContentStyle>
   );
 }

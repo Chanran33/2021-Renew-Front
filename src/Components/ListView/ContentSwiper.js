@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Coverflow from 'react-coverflow';
 
 const fn = function () {
@@ -22,8 +21,7 @@ const ContentSwiper = () => {
           width: '960px',
           height: '600px'
         }
-      }}
-      >
+      }}>
       <img src='https://think.kera.org/wp-content/uploads/2020/05/shutterstock_750703924-800x500.jpg' alt='Album one' data-action="https://facebook.github.io/react/"/>
       <img src='https://think.kera.org/wp-content/uploads/2020/05/shutterstock_750703924-800x500.jpg' alt='Album two' data-action="http://passer.cc"/>
       <img src='https://think.kera.org/wp-content/uploads/2020/05/shutterstock_750703924-800x500.jpg' alt='Album three' data-action="https://doce.cc/"/>

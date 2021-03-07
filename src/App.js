@@ -19,12 +19,8 @@ const App = () => {
         <Route path="/signin" component={SignIn} />
         <Route path="/createEvent" component={CreateEvent} />
         <Route path="/mapview" component={MapView} />
-<<<<<<< HEAD
-        <Route path="/detailview" component={DetailView} />
-=======
         <Route path="/mypage" component={MyPage} />
         <Route path="/listview" component={ListView} />
->>>>>>> 25ee3f7008e38516ba12d150a98fe3ade20acfda
       </div>
     </div>
   );

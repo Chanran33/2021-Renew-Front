@@ -97,4 +97,6 @@ export default function MapContainer() {
 const Container = styled.div`
   display: inline-block;
   margin-left: 480px;
+  /* top: 0;
+  left: 0; */
 `;

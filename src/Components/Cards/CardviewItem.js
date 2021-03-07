@@ -1,42 +1,56 @@
-import React from "react";
-import styled from "styled-components";
-import { AiFillStar } from "react-icons/ai";
-import { IoRestaurant } from "react-icons/io5";
-import { FaWifi } from "react-icons/fa";
-import { RiCoinsFill } from "react-icons/ri";
+import React, { useState } from "react";
 
-const CardviewItem = () => {
-  // const [StoreName, setStoreName] = useState("");
+// import { AiFillStar } from "react-icons/ai";
+import FavoriteIcon from "@material-ui/icons/Favorite";
+import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
+import ToggleButton from "@material-ui/lab/ToggleButton";
+
+import styled from "styled-components";
+
+const CardviewItem = ({ place }) => {
+  const [selected, setselected] = useState(false);
+  const { title, description, url, urlToImage } = place;
+
+  // Virtual data
+  const sample = {
+    storeName: "The Store Name01",
+    description: "Here is a description about the store ... ",
+  };
 
   return (
     <CardviewItemContainer>
       <div className="thumbnail">
         <img
-          src="./images/store1.jpg"
+          // src="?"
           alt="store detail img"
           title="detail img"
         />
-        <button className="heart">찜하기</button>
       </div>
+
       <div className="contents">
-        <div>
+        <div className="title">
+          <ToggleButton
+            className="likeBtn"
+            value="check"
+            selected={selected}
+            onChange={() => {
+              setselected(!selected);
+            }}
+          >
+            {selected === true ? <FavoriteIcon /> : <FavoriteBorderIcon />}
+          </ToggleButton>
           <span className="heading">
-            <strong>The Store Name</strong>
+            <a href={url} target="_blank" rel="noopener noreferrer">
+              <strong>{title}</strong>
+            </a>
           </span>
-          <span className="icons">
-            <RiCoinsFill className="icon" />
-            <FaWifi className="icon" />
-            <IoRestaurant className="icon" />
-          </span>
+          {/* <div className="starrating">
+            <AiFillStar className="star" />
+            <span className="rating">4.25</span>
+          </div> */}
         </div>
-        <div className="starrating">
-          <AiFillStar className="star" />
-          <span className="rating">4.25</span>
-        </div>
-        <p className="description">
-          Here is a description about the store... (Flea Market, Share, Class,
-          Store and more...)
-        </p>
+
+        <p className="description">{description}</p>
       </div>
     </CardviewItemContainer>
   );
@@ -48,8 +62,10 @@ const CardviewItemContainer = styled.div`
   width: 375px;
   height: 315px;
   background-color: #dad7cd;
-  color: #081f32;
+  color: black;
   border-radius: 4px;
+  margin: 0 auto;
+  margin-bottom: 10px;
 
   .thumbnail {
     width: 375px;
@@ -67,51 +83,65 @@ const CardviewItemContainer = styled.div`
     width: 355px;
     height: 100px;
     padding: 10px;
-    .heading {
-      font-family: DM Serif Display;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 24px;
-      line-height: 25px;
-      letter-spacing: 0.01em;
-      color: #081f32;
-    }
-    .icons {
-      float: right;
-      color: #007ae9;
-      .icon {
-        width: 24px;
-        height: 24px;
-        float: right;
-        margin-left: 0.4em;
+
+    .title {
+      float: left;
+
+      .likeBtn {
+        background: none;
+        outline: none;
+        border: none;
+        color: red;
+        cursor: pointer;
+        vertical-align: middle;
       }
-    }
-    .starrating {
-      height: 25px;
-      .star {
-        width: 20px;
-        height: 20px;
-        color: #ffc22b;
-      }
-      .rating {
-        font-family: DM Serif Display;
+      .heading {
+        /* font-family: DM Serif Display;
         font-style: normal;
-        font-weight: normal;
+        font-weight: normal; */
         font-size: 24px;
         line-height: 25px;
         letter-spacing: 0.01em;
-        color: #000000;
+        color: #081f32;
+        vertical-align: middle;
+        a {
+          text-decoration: none;
+        }
       }
+      /* .starrating {
+        height: 25px;
+
+        .star {
+          width: 20px;
+          height: 20px;
+          color: #ffc22b;
+          vertical-align: middle;
+          margin-right: 4px;
+        }
+        .rating {
+          font-family: DM Serif Display;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 24px;
+          line-height: 25px;
+          letter-spacing: 0.01em;
+          color: #000000;
+          vertical-align: middle;
+        }
+      } */
     }
+
     .description {
-      font-family: Open Sans;
+      /* font-family: Open Sans;
       font-style: normal;
-      font-weight: normal;
+      font-weight: normal; */
       font-size: 16px;
       margin: 0;
       color: #6e798c;
       white-space: pre-wrap;
       overflow: hidden;
+      /* align: justify; */
+      float: left;
     }
   }
 `;

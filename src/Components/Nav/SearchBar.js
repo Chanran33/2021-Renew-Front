@@ -8,13 +8,13 @@ const SearchBar = () => {
       <form>
         <div className="searchbar">
           <button type="submit">
-            <IoSearch />
+            <IoSearch size="32" />
           </button>
 
           <input placeholder="Search for the Store" />
 
           <button type="reset">
-            <IoClose />
+            <IoClose size="32" />
           </button>
         </div>
       </form>
@@ -26,18 +26,24 @@ export default SearchBar;
 
 const Container = styled.div`
   display: block;
-  background: #a3b18a;
-  width: 400px;
-  /* height:  */
+  background: #fff;
+  width: 360px;
+  border: 0.2rem solid lightgrey;
+  border-radius: 6px;
+  margin: 0 auto;
+
+  /* height: 70px; */
+
   input {
-    width: 300px;
+    width: 260px;
     background: none;
     outline: none;
     border: none;
     padding: 0.5rem;
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     line-height: 1.5;
-    color: white;
+    color: black;
+    vertical-align: middle;
 
     &::placeholder {
       color: #dee2e6;
@@ -60,6 +66,7 @@ const Container = styled.div`
     align-items: center;
     cursor: pointer;
     transition: 0.1s background ease-in;
+    vertical-align: middle;
 
     &:hover {
       color: #344e41;

@@ -10,7 +10,7 @@ const Home = () => {
     <div>
       <HomeStyle>
         <NavBar />
-        <StartView style={bodyStyle}/>
+        <StartView/>
       </HomeStyle>
     </div>
     
@@ -23,6 +23,7 @@ const HomeStyle = styled.div`
   background-size: 1920px 960px;
   background-repeat: no-repeat;
   background-attachment: fixed;
+
 `;
 
 export default Home;

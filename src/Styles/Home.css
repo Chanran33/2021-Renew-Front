@@ -1,76 +1,75 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
-body{
-    margin: 0px;
+body {
+  margin: 0px;
 }
-.Home_body:after{
-    clear: both;
-    display: block;
-    content: '';
-}
-
-.Home_body{
-    padding: 30px 5%;
-    height: 960px;
-    font-family: "Open Sans", sans-serif;
+.Home_body:after {
+  clear: both;
+  display: block;
+  content: "";
 }
 
-.Home_body .social{
-    float:left;
-    padding-right:10%;
+.Home_body {
+  padding: 30px 5%;
+  height: 960px;
+  font-family: "Open Sans", sans-serif;
 }
 
-.social img{
-    padding-bottom: 50px;
-    cursor: pointer;
+.Home_body .social {
+  float: left;
+  padding-right: 10%;
 }
 
-.Home_body .welcome{
-    float: left;
+.social img {
+  padding-bottom: 50px;
+  cursor: pointer;
 }
 
-.welcome h1{
-    font-size: 70px;
-    padding-bottom: 40px;
-    text-align: center;
+.Home_body .welcome {
+  float: left;
 }
 
-.welcome p{
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 30px;
+.welcome h1 {
+  font-size: 70px;
+  padding-bottom: 40px;
+  text-align: center;
 }
 
-.welcome_buttons{
-    text-align: center;
+.welcome p {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
-.welcome_buttons button img{
-    display: inline-block;
+.welcome_buttons {
+  text-align: center;
 }
 
-.welcome_buttons button{
-    padding: 15px 50px;
-    background-color: #3A5A40;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-    margin: 0px 20px;
-    font-size: 18px;
-    color: #DAD7CD;
+.welcome_buttons button img {
+  display: inline-block;
 }
 
-.welcome_buttons button:hover{
-    background-color: #DAD7CD;
-    color: #3A5A40;
-    font-weight: bold;
+.welcome_buttons button {
+  padding: 15px 50px;
+  background-color: #3a5a40;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin: 0px 20px;
+  font-size: 18px;
+  color: #dad7cd;
 }
 
-.welcome_buttons img{
-    position: relative;
-    bottom: -20px;
-    margin: 0px 20px;
-    cursor: pointer;
+.welcome_buttons button:hover {
+  background-color: #dad7cd;
+  color: #3a5a40;
+  font-weight: bold;
+}
+
+.welcome_buttons img {
+  position: relative;
+  margin: 0px 20px;
+  cursor: pointer;
 }

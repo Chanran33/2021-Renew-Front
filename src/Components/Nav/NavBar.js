@@ -64,6 +64,7 @@ const NavBarStyle = styled.div`
 
   .nav_links {
     list-style: none;
+    margin-top: 15px;
   }
 
   .nav_links li {

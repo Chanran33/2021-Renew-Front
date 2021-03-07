@@ -699,7 +699,7 @@ function Content() {
   //   const fetchData = async () => {
   //     setLoading(true);
   //     try{
-  //       const response = await axios.get('https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=zerowaste&key=AIzaSyBGWX36iYXROhuXounzaoL7g9L9Le73U2A&maxResults=10');
+  //       const response = await axios.get('https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=zerowaste&key=[APIKEY]&maxResults=10');
   //       console.log(response.data.items)
   //       setYoutube(response.data.items);
   //     } catch(e){

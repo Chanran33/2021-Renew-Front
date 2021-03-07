@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 import styled from "styled-components";
 
 const NavBar = () => {
@@ -36,6 +35,7 @@ export default NavBar;
 
 // Style
 const NavBarStyle = styled.div`
+  
   .logo_link .logo {
     width: 160px;
     height: auto;

@@ -28,7 +28,7 @@ body {
   height: 100%;
   float: left;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .EventDetail_left {
@@ -43,5 +43,24 @@ body {
   /* letter-spacing: 3px;
   word-spacing: 5px; */
   margin-top: 30px;
-  margin-bottom: 50px;
+}
+
+.EventDetail_left .Store_button {
+  border: solid;
+  background-color: #dad7cd;
+  border-color: #dad7cd;
+  font-size: medium;
+  padding: 0px 15px;
+  color: #344e41;
+  margin-left: 50px;
+}
+
+.hashtag_button {
+  border: solid;
+  background-color: #6e41e2;
+  border-color: #6e41e2;
+  font-size: medium;
+  padding: 0px 15px;
+  color: white;
+  margin-left: 20px;
 }

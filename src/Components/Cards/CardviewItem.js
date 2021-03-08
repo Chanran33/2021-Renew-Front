@@ -34,7 +34,7 @@ const CardviewItem = ({ place }) => {
             {selected === true ? <FavoriteIcon /> : <FavoriteBorderIcon />}
           </ToggleButton>
           <span className="heading">
-            <a href={url} target="_blank" rel="noopener noreferrer">
+            <a href={url} rel="noopener noreferrer">
               <strong>{title}</strong>
             </a>
           </span>

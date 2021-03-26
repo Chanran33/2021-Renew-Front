@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function Tags() {
+export default function CategoryPill() {
   const classes = useStyles();
 
   const handleDelete = () => {
@@ -28,26 +28,29 @@ export default function Tags() {
   };
 
   return (
-    <div style={{ float: "left", textAlign: "initial" }}>
-      <h1>Tags</h1>
-      <div style={{ display: "block" }} className={classes.root}>
-        <Chip
-          label="Primary clickable"
-          clickable
-          color="primary"
-          onDelete={handleDelete}
-          deleteIcon={<DoneIcon />}
-        />
-        <Chip
-          label="Deletable primary"
-          onDelete={handleDelete}
-          color="primary"
-        />
-        {/* label="Deletable secondary"
-            onDelete={handleDelete}
-            color="secondary"
-        /> */}
-      </div>
+    <div className={classes.root}>
+      <Chip
+        avatar={<Avatar alt="Share" src="../MapImages/map_share.png" />}
+        label="Share"
+        onClick={handleClick}
+      />
+      <Chip
+        avatar={<Avatar alt="Class" src="../MapImages/map_class.png" />}
+        label="Class"
+        onDelete={handleDelete}
+      />
+      <Chip
+        icon={<FaceIcon />}
+        label="Clickable deletable"
+        onClick={handleClick}
+        onDelete={handleDelete}
+      />
+      <Chip
+        label="Custom delete icon"
+        onClick={handleClick}
+        onDelete={handleDelete}
+        deleteIcon={<DoneIcon />}
+      />
     </div>
   );
 }

@@ -5,7 +5,7 @@ import styled from "styled-components";
 const sampleData = {
   title: "The Store Name",
   description: "This is Amazing Store! This is WoW Store! This is Funny Store!",
-  url: "https://google.com",
+  url: "/eventdetail",
   urlToImage: "httpsL.via.placeholder.com/160",
 };
 

@@ -191,6 +191,7 @@ function Search({ panTo }) {
     </div>
   );
 }
+
 // Style
 const Container = styled.div`
   display: inline-block;
@@ -209,7 +210,6 @@ const Container = styled.div`
 
   .search input {
     margin-left: 480px;
-
     padding: 0.5rem;
     font-size: 1.5rem;
     width: 100%;

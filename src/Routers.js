@@ -10,6 +10,7 @@ import EventDetail from "./Pages/EventDetail";
 import MapView from "./Pages/MapView";
 import MyPage from "./Pages/MyPage";
 import ListView from "./Pages/ListView";
+import Test from "./Pages/Test";
 import "./Styles/Router.css";
 
 function Routers({ location }) {
@@ -31,6 +32,8 @@ function Routers({ location }) {
             <Route path="/mapview" component={MapView} />
             <Route path="/mypage" component={MyPage} />
             <Route path="/listview" component={ListView} />
+
+            <Route path="/test" component={Test} />
           </Switch>
         </section>
       </CSSTransition>

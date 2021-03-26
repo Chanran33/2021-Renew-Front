@@ -20,6 +20,11 @@ function SideBar() {
               <img src="image/user_dark.png" alt="logo" />
             </Link>
           </li>
+          <li class="menu">
+            <Link to="/MapView">
+              <img src="image/map_dark.png" alt="logo" />
+            </Link>
+          </li>
         </ul>
       </nav>
     </SideBarStyle>

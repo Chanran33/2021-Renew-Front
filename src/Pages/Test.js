@@ -1,10 +1,10 @@
 import React from "react";
-import MapViewPill from "../Components/Pills/MapViewPill";
+import MapContainer2 from "../Components/MapView/MapContainer2";
 
 const test = () => {
   return (
     <div>
-      <MapViewPill />
+      <MapContainer2 />
     </div>
   );
 };

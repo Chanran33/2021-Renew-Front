@@ -8,9 +8,9 @@ import Platform from "./filter/Platform";
 function FilterSlider() {
   return (
     <FilterSliderStyle>
-        <Filter></Filter>
-        <Tag></Tag>
-        <Platform></Platform>
+      <Filter></Filter>
+      <Tag></Tag>
+      <Platform></Platform>
     </FilterSliderStyle>
   );
 }
@@ -26,7 +26,8 @@ const FilterSliderStyle = styled.div`
   z-index: 1;
   top: 0;
   left: 80px;
-  margin: 10px;
+  padding-left: 15px;
+  padding-top: 10px;
   background-color: #ffffff;
   position: fixed;
 `;

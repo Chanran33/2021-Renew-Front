@@ -53,6 +53,7 @@ const NavBarStyle = styled.div`
     font-size: 20px;
     color: #588157;
     text-decoration: none;
+    text-shadow: 1px 1px 2px gray;
   }
 
   .header {

@@ -1,5 +1,7 @@
 import React from "react";
 import NavBar from "../../src/Components/Nav/NavBar";
+import { Link } from "react-router-dom";
+
 import styled from "styled-components";
 import "../Styles/CreateEvent.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -12,15 +14,12 @@ const CreateEvent = () => {
         <div className="CreateEvent_body">
           <div className="split CreateEvent_left">
             <img src="image/createEvent_logo.png" />
+            <br />
+            <br />
             <h1>
               Go green by <br />
               Upcycling
             </h1>
-            <p>
-              To Keep connected with us
-              <br />
-              please login with personal Info
-            </p>
           </div>
           <div className="split CreateEvent_right">
             <form>
@@ -32,25 +31,12 @@ const CreateEvent = () => {
                 aria-label=".form-select-lg example"
                 name="category"
               >
-                <option selected>Event Category</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
+                <option selected>Class</option>
+                <option value="1">Fleamarket</option>
+                <option value="2">Share</option>
+                <option value="3">Store</option>
               </select>
-              <br />
-              <select
-                className="hashtag"
-                class="form-select"
-                multiple
-                aria-label="multiple select example"
-                name="hashtag"
-              >
-                <option selected>usa</option>
-                <option value="1">Russia</option>
-                <option value="2">Belgium</option>
-                <option value="3">Sweden</option>
-                <option value="4"></option>
-              </select>
+
               <br />
               <input type="text" placeholder="Address" />
               <br />
@@ -60,6 +46,9 @@ const CreateEvent = () => {
               <br />
               <textarea placeholder="description" className="des" />
             </form>
+            <Link to="/">
+              <button className="submit__button">Submit</button>
+            </Link>
           </div>
         </div>
       </HomeStyle>
@@ -72,6 +61,18 @@ const HomeStyle = styled.div`
   background-size: 1780px 960px;
   background-repeat: no-repeat;
   background-attachment: fixed;
+
+  .submit__button {
+    padding: 15px 50px;
+    background-color: #3a5a40;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin: 0px 20px;
+    font-size: 18px;
+    color: #dad7cd;
+  }
 `;
 
 export default CreateEvent;

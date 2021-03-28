@@ -1,10 +1,10 @@
 import React from "react";
-import MapViewPill from "../Components/Pills/MapViewPill";
+import CategoryPill from "../Components/MapView/filter/CategoryPill";
 
 const test = () => {
   return (
     <div>
-      <MapViewPill />
+      <CategoryPill />
     </div>
   );
 };

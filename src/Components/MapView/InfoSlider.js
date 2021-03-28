@@ -6,7 +6,7 @@ import CardviewList from "../Cards/CardviewList";
 const InfoSlider = () => {
   return (
     <Container>
-      <SearchBar />
+      {/* <SearchBar /> */}
       <CardviewList />
     </Container>
   );
@@ -23,7 +23,7 @@ const Container = styled.div`
   top: 0;
   left: 0;
   padding-top: 25px;
-  background-color: #ffffff;
+  background-color: #344e41;
   position: fixed;
   left: 80px;
 `;

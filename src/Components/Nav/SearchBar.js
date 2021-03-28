@@ -1,8 +1,37 @@
 import React from "react";
 import styled from "styled-components";
 import { IoSearch, IoClose } from "react-icons/io5";
+import AutoComplete from "react-google-autocomplete";
 
+// function component
 const SearchBar = () => {
+  const onPlaceSelected = (place) => {
+    console.log("plc", place);
+
+    const address = place.formatted_address,
+      addressArray = place.address_components,
+      city = this.getCity(addressArray),
+      area = this.getArea(addressArray),
+      state = this.getState(addressArray),
+      newLat = place.geometry.location.lat(),
+      newLng = place.geometry.location.lng();
+
+    // setState
+    this.setState({
+      address: address ? address : "",
+      area: area ? area : "",
+      city: city ? city : "",
+      state: state ? state : "",
+      markerPosition: {
+        lat: newLat,
+        lng: newLng,
+      },
+      mapPosition: {
+        lat: newLat,
+        lng: newLng,
+      },
+    });
+  };
   return (
     <Container>
       <form>
@@ -11,7 +40,18 @@ const SearchBar = () => {
             <IoSearch size="32" />
           </button>
 
-          <input placeholder="Search for the Store" />
+          {/* <input placeholder="Search for the Store" /> */}
+          <AutoComplete
+            style={{
+              width: "100%",
+              height: "40px",
+              paddingLeft: 16,
+              marginTop: 2,
+              marginBottom: "2rem",
+            }}
+            onPlaceSelected={onPlaceSelected}
+            types={["(regions)"]}
+          />
 
           <button type="reset">
             <IoClose size="32" />

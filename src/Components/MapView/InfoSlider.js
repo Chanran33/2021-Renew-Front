@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import TestSearchBar from "../Nav/TestSearchBar";
+import SearchBar from "../Nav/SearchBar";
 import CardviewList from "../Cards/CardviewList";
 
 const InfoSlider = () => {
   return (
     <Container>
-      <TestSearchBar />
+      {/* <SearchBar /> */}
       <CardviewList />
     </Container>
   );

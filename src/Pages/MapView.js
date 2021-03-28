@@ -8,11 +8,8 @@ import styled from "styled-components";
 const MapView = () => {
   return (
     <Container>
-      {/* <SideBar />
-      <InfoSlider />
-      <MapContainer /> */}
       <SideBar />
-      <InfoSlider />
+      {/* <InfoSlider /> */}
       <MapContainer2 />
     </Container>
   );

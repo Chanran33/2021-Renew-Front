@@ -463,7 +463,19 @@ class MapContainer2 extends React.Component {
               lng: -73.97581251177199,
             }}
             icon={shareIcon}
-          ></Marker>
+          >
+            {/* <InfoWindow
+              position={{
+                lat: 40.77970876115299 + 0.001,
+                lng: -73.97581251177199,
+              }}
+            >
+              <div>
+                <span id="title">Share unworn clothes</span>
+                <span id="description">Unworn clothes : size L</span>
+              </div>
+            </InfoWindow> */}
+          </Marker>
           <Marker
             id={4}
             position={{

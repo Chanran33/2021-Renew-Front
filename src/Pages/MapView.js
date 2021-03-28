@@ -9,7 +9,6 @@ const MapView = () => {
   return (
     <Container>
       <SideBar />
-      {/* <InfoSlider /> */}
       <MapContainer2 />
     </Container>
   );

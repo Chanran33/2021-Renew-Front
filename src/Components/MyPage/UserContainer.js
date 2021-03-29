@@ -1,5 +1,8 @@
 // UserContainer.js 구버전
 import React from "react";
+import InstaCard from "../../Components/Cards/InstaCard";
+import Favorite3 from "./MyPageImages/3.png";
+import Favorite7 from "./MyPageImages/7.png";
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
 import styled from "styled-components";
@@ -9,7 +12,6 @@ const UserContainer = () => {
     <Container>
       <div class="box">
         <div class="user-box">
-          {/* <span class="box-text">USER INFO</span> */}
           <div id="userinfo">
             <img
               id="profile"
@@ -19,7 +21,7 @@ const UserContainer = () => {
             <div id="detail">
               <span id="email">
                 <MailOutlineIcon className="icon" />
-                gogreen2021@google.com
+                g2r@google.com
               </span>
             </div>
           </div>
@@ -32,13 +34,8 @@ const UserContainer = () => {
             <FavoriteIcon className="icon" />
           </span>
           <div id="favorite">
-            {/* <span class="category">FLEA MARKET</span>
-            <br />
-            <span class="category">SHARE</span>
-            <br />
-            <span class="category">CLASS</span>
-            <br />
-            <span class="category">STORE</span> */}
+            <InstaCard img={Favorite3} author="DIY Clothes" />
+            <InstaCard img={Favorite7} author="Orgaric Beddings" />
           </div>
         </div>
       </div>
@@ -80,6 +77,8 @@ const Container = styled.div`
         /* text-align: right; */
         background-color: white;
         /* margin: auto 0px; */
+        display: flex;
+        justify-content: center;
       }
     }
 
